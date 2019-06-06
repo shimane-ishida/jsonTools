@@ -35,11 +35,7 @@ export default {
   data: function(){
     return {
       map: null,
-      baseJson:{
-        "title": "",
-        "lat": "0.0",
-        "lng": "0.0",
-      },
+      baseJson:{},
       pop_title:"",
       jsonArray:[]
     }
