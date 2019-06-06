@@ -1,4 +1,7 @@
-# location-generator
+# Vue.jsテストプロジェクト
+
+## 概要
+このプロジェクトはVue.jsでCSVとJSONの読み込みテストおよびleafletjsを使ったマップ表示を行うことを目的としたものです
 
 ## Project setup
 ```
@@ -14,16 +17,5 @@ npm run serve
 ```
 npm run build
 ```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Demo
+[DemoSite](https://shimane-ishida.github.io/jsonTools/)

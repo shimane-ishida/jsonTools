@@ -8,8 +8,9 @@
     <div class="popcontents">
       <label for="pop-title">タイトル：</label>
       <input type="text" v-model="pop_title">
-      <p>※タイトルを入力しないとポイントをプロットできません</p>
+      <p>※タイトルを入力しないとポイントをプロットできません。</p>
       <textarea cols="30" rows="5" readonly>{{ jsonArray }}</textarea>
+      <p>※上記をCOPYして使ってください。</p>
     </div>
     <div id=map></div>
   </div>
@@ -98,7 +99,7 @@ html, body, #app{
 
 #map{
   width: 90%;
-  height: calc(100vh - 410px);
+  height: calc(100vh - 430px);
   margin: 10px auto;
   background: beige;
 }
